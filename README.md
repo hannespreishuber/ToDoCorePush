@@ -9,7 +9,7 @@ no MVx library
 
 in memory DB as Service 
 
-selmade tinylib
+selfmade tiny lib
 
 server rendered HTML from partials
 
