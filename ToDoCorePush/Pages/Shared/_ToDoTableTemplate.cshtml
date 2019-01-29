@@ -1,0 +1,11 @@
+﻿@model ToDoCorePush.Model.ToDosListe
+<ul>
+@foreach (var item in Model.Items)
+{
+<li>
+    <input type="checkbox" data-ppedv-action="Check" value="@item.Aufgabe" checked="@item.Erledigt" />
+    <label>  @item.Aufgabe</label>
+</li>
+
+}
+    </ul>
